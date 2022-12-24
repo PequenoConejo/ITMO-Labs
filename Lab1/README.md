@@ -14,7 +14,7 @@ string name; // название города
 ### Функции
 
 Случайные значения игровых параметров определяются в функциях:
-
+```
 // Сколько жителей умрет от голода
 int dieStarving(int wheat, int population);
 
@@ -26,12 +26,12 @@ int deadFromPlague(int population);
 
 // Сколько бушелей съели крысы
 int bushelsAteByRats(int bushelsWheat);
-
+```
 Также отдельная функция служит для проверки введенных пользователем параметров:
-
+```
 // Проверка введенных пользователем параметров
 bool interactive(City city, int acresSell, int acresBuy, int bushelsForEat, int acresForSow, int acrePrice);
-
+```
 ## Игровой процесс
 
 ### Описание логики
